@@ -34,6 +34,8 @@ export default {
    .cabecera {
       grid-area: cabecera;
       border: 1px double #2c3e50;
+      overflow: hidden;
+      overflow-y: scroll;
    }
 
    .cabecera ul{

@@ -32,14 +32,17 @@ export default {
    .archivos {
       grid-area: archivos;
       border: 1px double #2c3e50;   
+      overflow: hidden;
+      overflow-y: scroll;
    }
    .archivos p{
       margin: 5px 0 0 0;
       padding: 0; 
    }
    .archivos ol{
-      text-align: justify;
+      text-align: left;
       margin-top: 0;
+      
       
    }
    /* .archivos li{

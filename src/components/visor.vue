@@ -51,6 +51,10 @@ export default {
       cursor: pointer;
       background: green;
    }
+   .visor img{
+      margin: 15px 0 0 0;
+      width: 80%;
+   }
 
 
 </style>

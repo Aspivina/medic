@@ -41,16 +41,17 @@ export default {
 <style>
   body{
     margin: 0;
+
   }
   .bigContainer{
     display: grid;
-    grid-template-columns: 450px 1fr;
+    grid-template-columns: minmax(250px, 450px) 1fr;
     grid-template-rows: 300px 1fr;
     grid-template-areas:  "archivos visor"
                           "cabecera visor";
     justify-content: space-around;
     align-content: stretch;
-    height: 100vh;
+  height: 100vh;
 
   }
   .detalles{
